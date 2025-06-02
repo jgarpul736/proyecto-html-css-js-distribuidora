@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Galería | FresMota</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../galeria/css/styles.css">
+</head>
+<body>
+
+  <!-- MENÚ -->
+  <nav class="menu">
+    <div class="menu__container">
+      <div class="menu__logo">🍓 FresMota</div>
+  
+      <input type="checkbox" id="menu-toggle" class="menu__checkbox">
+      <label for="menu-toggle" class="menu__hamburger">&#9776;</label>
+  
+      <div class="menu__items">
+        <label for="menu-toggle" class="menu__close">&times;</label>
+        <a href="../introduccion/introduccion.html" class="menu__item">INICIO</a>
+        <a href="../mapa/mapa.html" class="menu__item">MAPA</a>
+        <a href="../galeria/galeria.html" class="menu__item">GALERÍA</a>
+        <a href="../productos/productos.html" class="menu__item">PRODUCTOS</a>
+        <a href="../contacto/contacto.html" class="menu__item">FORMULARIO</a>
+        <a href="../empresa/empresa.html" class="menu__item">EMPRESA</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="header">
+    <h1 class="header__title">Galería Diamante 🍓</h1>
+    <p class="header__subtitle">Una nueva forma de ver lo natural</p>
+  </header>
+
+  <section class="galeria">
+    <div class="rombo-grid">
+      <!-- Cada rombo debe tener la clase y data-category -->
+      <div class="rombo-contenedor" data-category="cultivo">
+        <div class="rombo">
+          <img src="../../img/cultivofresas.jpg" alt="Cultivo de fresas al amanecer">
+          <span>Cultivo al amanecer</span>
+        </div>
+      </div>
+      <div class="rombo-contenedor" data-category="cultivo">
+        <div class="rombo">
+          <img src="../../img/fincafresas.jpg" alt="Nuestra finca ecológica">
+          <span>Nuestra finca ecológica</span>
+        </div>
+      </div>
+      <div class="rombo-contenedor" data-category="recoleccion">
+        <div class="rombo">
+          <img src="../../img/fresas-campo.webp" alt="Cosecha recién recogida">
+          <span>Cosecha recién recogida</span>
+        </div>
+      </div>
+      <div class="rombo-contenedor" data-category="recoleccion">
+        <div class="rombo">
+          <img src="../../img/detallefresas.jpg" alt="Detalle de fresas">
+          <span>La belleza de   nuestras fresas</span>
+        </div>
+      </div>
+      <div class="rombo-contenedor" data-category="recoleccion">
+        <div class="rombo">
+          <img src="../../img/trabajofresas.jpg" alt="Trabajo de recolección">
+          <span>Jornada de recolección</span>
+        </div>
+      </div>
+      <div class="rombo-contenedor" data-category="envio">
+        <div class="rombo">
+          <img src="../../img/lista.jpg" alt="Fresas listas para envío">
+          <span>Muestras justo antes enviar</span>
+        </div>
+      </div>
+      <div class="rombo-contenedor" data-category="cultivo">
+        <div class="rombo">
+          <img src="../../img/seleccionfresas.jpg" alt="Vista aérea del cultivo">
+          <span>Vista aérea del cultivo</span>
+        </div>
+      </div>
+      <div class="rombo-contenedor" data-category="recoleccion">
+        <div class="rombo">
+          <img src="../../img/recogidafresas.jpg" alt="Selección de fresas">
+          <span>Selección de fresas</span>
+        </div>
+      </div>
+      <div class="rombo-contenedor" data-category="equipo">
+        <div class="rombo">
+          <img src="../../img/recoleccion.jpg" alt="Equipo FresMota">
+          <span>Actuación Equipo FresMota</span>
+        </div>
+      </div>
+      <div class="rombo-contenedor" data-category="envio">
+        <div class="rombo">
+          <img src="../../img/campañafresas.jpg" alt="Campaña de fresas">
+          <span>Última campaña hasta la fecha</span>
+        </div>
+      </div>
+      
+
+      <div class="rombo-contenedor" data-category="recoleccion">
+        <div class="rombo">
+          <img src="../../img/envasadoeco.jpg" alt="Envasado de fresas">
+          <span>Envasado ecológico de las fresas</span>
+        </div>
+      </div>
+      <div class="rombo-contenedor" data-category="equipo">
+        <div class="rombo">
+          <img src="../../img/ultima.jpg" alt="Última selección">
+          <span>Última selección de las mejores fresas</span>
+        </div>
+      </div>
+      <div class="rombo-contenedor" data-category="envio">
+        <div class="rombo">
+          <img src="../../img/gente.jpg" alt="Equipo">
+          <span>Más que una empresa, una familia</span>
+        </div>
+      </div>
+      <div class="rombo-contenedor" data-category="recoleccion">
+        <div class="rombo">
+          <img src="../../img/familia.jpg" alt="Familia feliz">
+          <span>Recogiendo en familia</span>
+        </div>
+      </div>
+      <div class="rombo-contenedor" data-category="equipo">
+        <div class="rombo">
+          <img src="../../img/concienciar.jpg" alt="Charla">
+          <span>Charla para concienciar la importancia de las fresas</span>
+        </div>
+      </div>
+      <div class="rombo-contenedor" data-category="envio">
+        <div class="rombo">
+          <img src="../../img/clientefeliz.avif" alt="Cliente feliz">
+          <span>Clientes felices con nuestras fresas</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal para imagen -->
+  <div class="modal" id="modal">
+    <span class="cerrar" id="cerrarModal">&times;</span>
+    <img class="modal-content" id="imgModal">
+  </div>
+
+   <!-- FOOTER -->
+   <footer class="footer">
+    <p class="footer__text">© 2025 FresMota - Cultivando sabor en Jaén</p>
+    <div class="footer__redes">
+      <a href="#" class="footer__icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="footer__icon"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="footer__icon"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

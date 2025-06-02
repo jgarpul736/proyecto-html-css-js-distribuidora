@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ubicación | FresMota</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../mapa/css/styles.css">
+</head>
+<body>
+
+  <!-- MENÚ -->
+  <nav class="menu">
+    <div class="menu__container">
+      <div class="menu__logo">🍓 FresMota</div>
+
+      <input type="checkbox" id="menu-toggle" class="menu__checkbox">
+      <label for="menu-toggle" class="menu__hamburger">&#9776;</label>
+
+      <div class="menu__items">
+        <label for="menu-toggle" class="menu__close">&times;</label>
+        <a href="../introduccion/introduccion.html" class="menu__item">INICIO</a>
+        <a href="../mapa/mapa.html" class="menu__item">MAPA</a>
+        <a href="../galeria/galeria.html" class="menu__item">GALERÍA</a>
+        <a href="../productos/productos.html" class="menu__item">PRODUCTOS</a>
+        <a href="../contacto/contacto.html" class="menu__item">FORMULARIO</a>
+        <a href="../empresa/empresa.html" class="menu__item">EMPRESA</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CABECERA -->
+  <header class="header">
+    <h1 class="header__title">📍 Puntos de distribución FresMota</h1>
+    <p class="header__subtitle">Descubre dónde el sabor de la fresa llega a ti</p>
+  </header>
+
+  <!-- MAPA DE DISTRIBUCIÓN FRESMOTA -->
+  <section class="mapa mapa--distribucion">
+    <div class="mapa__card">
+      <div class="mapa__iframe-container">
+        <iframe 
+          src="https://www.google.com/maps/d/embed?mid=1WlEAq_5rLNfUwMhHJEEpMjxzOc2sq58" 
+          class="mapa__iframe" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ESPACIO -->
+  <section class="espacio">
+    <p></p>
+  </section>
+
+  <!-- RIBBON CTA -->
+  <div class="ribbon-cta">
+    <p>🍓 Visita la finca y vive la experiencia FresMota</p>
+    <a href="../contacto/contacto.html" class="cta-btn">Agendar visita</a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p class="footer__text">© 2025 FresMota - Cultivando sabor en Jaén</p>
+    <div class="footer__redes">
+      <a href="#" class="footer__icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="footer__icon"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="footer__icon"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
+</body>
+</html>
