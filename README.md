@@ -1,33 +1,38 @@
-# Distribuidora de Fresas - Alcalá la Real
+Aquí tienes el texto completamente traducido al inglés, con el badge de DeepWiki agregado al final de forma natural:
 
-Página web creada para una distribuidora local de fresas en Alcalá la Real.  
-El proyecto está desarrollado con **HTML**, **CSS** y **JavaScript** para mostrar información sobre los productos, servicios y contacto.
+---
 
-## Descripción
+# Strawberry Distributor - Alcalá la Real
 
-Esta web presenta la distribuidora de fresas, mostrando:
+Website created for a local strawberry distributor in Alcalá la Real.
+The project is developed using **HTML**, **CSS**, and **JavaScript** to display information about products, services, and contact details.
 
-- Información sobre la empresa y su historia.
-- Catálogo de productos frescos y de temporada.
-- Contacto y ubicación.
-- Diseño responsive y atractivo para facilitar la experiencia del usuario.
+## Description
 
-## Tecnologías usadas
+This website introduces the strawberry distributor, showcasing:
 
-- HTML5
-- CSS3
-- JavaScript (vanilla)
+* Information about the company and its history.
+* Catalog of fresh and seasonal products.
+* Contact and location details.
+* Responsive and attractive design to enhance user experience.
 
-## Cómo ejecutar el proyecto
+## Technologies Used
 
-1. Clonar el repositorio:  
-   `git clone https://github.com/tuusuario/tu-repo.git`
-2. Abrir el archivo `index.html` en el navegador.
+* HTML5
+* CSS3
+* JavaScript (vanilla)
 
-## Autor
+## How to Run the Project
+
+1. Clone the repository: `git clone https://github.com/yourusername/your-repo.git`
+2. Open the `index.html` file in your browser.
+
+## Author
 
 Jesús García Pulido
 
 ---
 
-¡Gracias por visitar la web de la distribuidora de fresas de Alcalá la Real!
+Thank you for visiting the website of the strawberry distributor in Alcalá la Real!
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/jgarpul736/proyecto-html-css-js-distribuidora)
