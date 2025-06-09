@@ -1,7 +1,3 @@
-Aquí tienes el texto completamente traducido al inglés, con el badge de DeepWiki agregado al final de forma natural:
-
----
-
 # Strawberry Distributor - Alcalá la Real
 
 Website created for a local strawberry distributor in Alcalá la Real.
